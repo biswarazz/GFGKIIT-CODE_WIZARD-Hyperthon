@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Online Learning App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <img alt="Logo of KIIT University" class="h-10" height="50" src="https://storage.googleapis.com/a1aa/image/giBgvnHxjBoNGlnjB5P1DCByWAckUHwPaNfXBjceN4WHbmGUA.jpg" width="150"/>
+        <a class="text-gray-700 hover:text-gray-900" href="#home">Home</a>
+        <a class="text-gray-700 hover:text-gray-900" href="#courses">Courses</a>
+        <a class="text-gray-700 hover:text-gray-900" href="#about">About</a>
+        <a class="text-gray-700 hover:text-gray-900" href="#contact">Contact</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <button class="text-gray-700 hover:text-gray-900" id="loginBtn">Login</button>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-full" id="signUpBtn">Sign Up</button>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-20" id="home">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold mb-4">Learn Anytime, Anywhere</h1>
+      <p class="text-lg mb-8">Join millions of learners from around the world and start your journey today.</p>
+      <a class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold" href="#">Get Started</a>
+    </div>
+  </section>
+  <!-- Featured Courses -->
+  <section class="py-20" id="courses">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Featured Courses</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img alt="Course cover image for Web Development" class="mb-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/mrNyxAu1p9rqK98xijskzfhAFttP1T79r3d7cKmuGsfIrlGUA.jpg" width="300"/>
+          <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+          <p class="text-gray-600 mb-4">Learn the basics of web development with HTML, CSS, and JavaScript.</p>
+          <a class="text-blue-600 hover:underline" href="#">Learn More</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img alt="Course cover image for Data Science" class="mb-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/9PjRn3AXi95GEtRRJ3fGBfwwiWmqqGlM6rxHBSeo9UiSWLNoA.jpg" width="300"/>
+          <h3 class="text-xl font-semibold mb-2">Data Science</h3>
+          <p class="text-gray-600 mb-4">Master data analysis, visualization, and machine learning techniques.</p>
+          <a class="text-blue-600 hover:underline" href="#">Learn More</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img alt="Course cover image for Digital Marketing" class="mb-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/6dxyeuPraM2pDaYglHF5g1GxABnhMfWOGVtmffxNxUzAtWaQB.jpg" width="300"/>
+          <h3 class="text-xl font-semibold mb-2">Digital Marketing</h3>
+          <p class="text-gray-600 mb-4">Become an expert in SEO, social media marketing, and content creation.</p>
+          <a class="text-blue-600 hover:underline" href="#">Learn More</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img alt="Course cover image for Graphic Design" class="mb-4 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/eSTPpFRFtxx0CKUgcPzNsbTmIVarqWR1xOCLZtZycD5m1SDKA.jpg" width="300"/>
+          <h3 class="text-xl font-semibold mb-2">Graphic Design</h3>
+          <p class="text-gray-600 mb-4">Learn the principles of design and master tools like Photoshop and Illustrator.</p>
+          <a class="text-blue-600 hover:underline" href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials -->
+  <section class="bg-gray-200 py-20" id="about">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">What Our Students Say</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img alt="Profile picture of student 1" class="w-16 h-16 rounded-full mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/gksnPwyT2Y7vC5xa1g1a0fEyfj9mumlzmTVQalPRmr0RrlGUA.jpg" width="100"/>
+          <h3 class="text-xl font-semibold mb-2">Student Name 1</h3>
+          <p class="text-gray-600 mb-4">"This platform has transformed my career. The courses are well-structured and the instructors are top-notch."</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img alt="Profile picture of student 2" class="w-16 h-16 rounded-full mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/fxpp2fqCsjjlUUDMcHV6339zFqhBicBtmCTXmq9fMH3XWLNoA.jpg" width="100"/>
+          <h3 class="text-xl font-semibold mb-2">Student Name 2</h3>
+          <p class="text-gray-600 mb-4">"I love the flexibility of learning at my own pace. The community is also very supportive."</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img alt="Profile picture of student 3" class="w-16 h-16 rounded-full mb-4" height="100" src="https://storage.googleapis.com/a1aa/image/fqBGTahRq9yANaVvrU6YffbV9SP6Y6iJpyIYfS0EFUFysWaQB.jpg" width="100"/>
+          <h3 class="text-xl font-semibold mb-2">Student Name 3</h3>
+          <p class="text-gray-600 mb-4">"The variety of courses available is amazing. I've learned so much in such a short time."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8" id="contact">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center">
+        <div>
+          <img alt="Logo of KIIT University" class="h-10 mb-4" height="50" src="https://storage.googleapis.com/a1aa/image/giBgvnHxjBoNGlnjB5P1DCByWAckUHwPaNfXBjceN4WHbmGUA.jpg" width="150"/>
+          <p class="text-gray-400">2025 Online Learning Platform.</p>
+        </div>
+        <div class="flex space-x-4">
+          <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Login Modal -->
+  <div class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden" id="loginModal">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+      <h2 class="text-2xl font-bold mb-4">Login</h2>
+      <form id="loginForm">
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="loginEmail">Email</label>
+          <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="loginEmail" type="email"/>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="loginPassword">Password</label>
+          <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="loginPassword" type="password"/>
+        </div>
+        <div class="flex justify-between items-center">
+          <button class="bg-blue-600 text-white px-4 py-2 rounded-lg" type="submit">Login</button>
+          <button class="text-gray-600 hover:underline" id="closeLoginModal" type="button">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Sign Up Modal -->
+  <div class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden" id="signUpModal">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+      <h2 class="text-2xl font-bold mb-4">Sign Up</h2>
+      <form>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="signUpName">Name</label>
+          <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="signUpName" type="text"/>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="signUpEmail">Email</label>
+          <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="signUpEmail" type="email"/>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-2" for="signUpPassword">Password</label>
+          <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" id="signUpPassword" type="password"/>
+        </div>
+        <div class="flex justify-between items-center">
+          <button class="bg-blue-600 text-white px-4 py-2 rounded-lg" type="submit">Sign Up</button>
+          <button class="text-gray-600 hover:underline" id="closeSignUpModal" type="button">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Payment QR Code Modal -->
+  <div class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center hidden" id="paymentModal">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+      <h2 class="text-2xl font-bold mb-4">Scan to Pay</h2>
+      <div class="text-center" id="qrCodeContainer">
+        <!-- QR code will be inserted here -->
+      </div>
+      <div class="flex justify-between items-center mt-4">
+        <button class="text-gray-600 hover:underline" id="closePaymentModal" type="button">Close</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // JavaScript for modals
+    document.getElementById('loginBtn').addEventListener('click', function() {
+        document.getElementById('loginModal').classList.remove('hidden');
+    });
+
+    document.getElementById('closeLoginModal').addEventListener('click', function() {
+        document.getElementById('loginModal').classList.add('hidden');
+    });
+
+    document.getElementById('signUpBtn').addEventListener('click', function() {
+        document.getElementById('signUpModal').classList.remove('hidden');
+    });
+
+    document.getElementById('closeSignUpModal').addEventListener('click', function() {
+        document.getElementById('signUpModal').classList.add('hidden');
+    });
+
+    document.getElementById('closePaymentModal').addEventListener('click', function() {
+        document.getElementById('paymentModal').classList.add('hidden');
+    });
+
+    // Handle login form submission
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        document.getElementById('loginModal').classList.add('hidden');
+        document.getElementById('paymentModal').classList.remove('hidden');
+        fetch('/generate-qr')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('qrCodeContainer').innerHTML = data;
+            });
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+  </script>
+</body>
+</html>
